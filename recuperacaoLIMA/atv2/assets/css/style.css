@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.root{
+    --Branco:white;
+    --Preto:black;
+    --Laranja: orange;
+}
+
+.navbar{
+    background-color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+.navbar div span{
+    font-size: 1.5rem;
+    padding: 85px;
+}
+
+headder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 2.0rem;
+}
+
+headder h1 span{
+    color: orange;
+}
+
+.search{
+    background-image: url(assets/img/painel.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search div{
+    background-color: rgba(119, 108, 108, 0.7);
+    padding: 70px;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search h3{
+    font-size: 1.0rem;
+}
+
+.search div input{
+    width: 400px;
+    padding: 5px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+
+.tab-content {
+    display: flex;
+    align-items: center;
+}
+.tab-icon {
+    font-size: 30px; 
+    margin-right: 10px;
+}
+.tab-text {
+    font-size: 32px; 
+    color: white;
+}
+.dotnet {
+    color: orange; 
+}

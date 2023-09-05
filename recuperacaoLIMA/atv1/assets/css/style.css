@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:black
+}
+
+.cima {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.roxo{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-top: 3%;
+}
+
+.meio {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.baixo {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.verde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin-top: 3%;
+}
+.cachorro{
+    height: 200px;
+    width: 200px;
+    margin-top: 3%;
+}
+.laranja{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin-top: 3%;
+}
+.lado{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.outroLado{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
